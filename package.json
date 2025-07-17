@@ -1,5 +1,5 @@
 {
-  "name": "chrome-server-app",
+  "name": "tauri-vue-vite-template",
   "private": true,
   "version": "0.1.0",
   "type": "module",
