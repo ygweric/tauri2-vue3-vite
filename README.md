@@ -1,4 +1,4 @@
-add[简体中文说明](./README.zh-CN.md)
+[简体中文说明](./README.zh-CN.md)
 
 # tauri-vue-vite-template
 
@@ -10,6 +10,14 @@ A modern template combining **Tauri**, **Vue 3**, and **Vite** for building cros
 - 🛠️ **Vite**: Lightning-fast build tool and dev server.
 - 🧩 Out-of-the-box integration, minimal setup.
 - 📦 Ready for open source and commercial projects.
+
+## ✨ Features Description
+
+### 🔀 HTTP API Forwarding
+Built-in HTTP proxy endpoint for forwarding API requests to any target server. This enables the app to act as a lightweight API gateway or proxy, useful for cross-origin requests, debugging, or integrating with multiple backends.
+
+### 🛰️ Automatic Port Detection
+On startup, the app automatically scans and binds to an available local port. If the default port is occupied, it will incrementally search for the next available port, ensuring seamless startup without port conflicts.
 
 ## 🖥️ Development Environment
 - Node.js >= 18.x
